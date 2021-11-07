@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: proDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\47866\AppData\Local\Temp\RSPBF09.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/proDemo.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\一二阶段完整项目\OMO210310-卢元龙\src\preDemo\CBeginWin.cpp"
+]
+Creating command line "cl.exe @C:\Users\47866\AppData\Local\Temp\RSPBF09.tmp" 
+Creating temporary file "C:\Users\47866\AppData\Local\Temp\RSPBF0A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/proDemo.pdb" /debug /machine:I386 /out:"Debug/proDemo.exe" /pdbtype:sept 
+".\Debug\CAddGoods.obj"
+".\Debug\CAddGoodsMenuWin.obj"
+".\Debug\CBeginWin.obj"
+".\Debug\CButton.obj"
+".\Debug\CControl.obj"
+".\Debug\CEdit.obj"
+".\Debug\CFile.obj"
+".\Debug\CGoods.obj"
+".\Debug\CGoodsSearch.obj"
+".\Debug\CInputGoodsWin.obj"
+".\Debug\CLabel.obj"
+".\Debug\CLogin.obj"
+".\Debug\CManagerMenuWin.obj"
+".\Debug\CNewOrderWin.obj"
+".\Debug\COrderCheckWin.obj"
+".\Debug\COrderCheckWin_2.obj"
+".\Debug\COrderManWin.obj"
+".\Debug\COrderManWin_Menu.obj"
+".\Debug\COrderTableWin.obj"
+".\Debug\COutGoodsWin.obj"
+".\Debug\CRegisterWin.obj"
+".\Debug\CTable.obj"
+".\Debug\CTable_2.obj"
+".\Debug\CTable_3.obj"
+".\Debug\CTips_Check_Win.obj"
+".\Debug\CTipsWin.obj"
+".\Debug\CTipsWin_2.obj"
+".\Debug\CTool.obj"
+".\Debug\CUser.obj"
+".\Debug\CWindow.obj"
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\Users\47866\AppData\Local\Temp\RSPBF0A.tmp"
+<h3>Output Window</h3>
+Compiling...
+CBeginWin.cpp
+warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::const_iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Node' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Redbl' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,CGoods>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,CGoods,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<CGoods> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<CGoods> >' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,CGoods>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,CGoods,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<CGoods> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<CGoods> >::const_iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,CGoods>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,CGoods,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<CGoods> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<CGoods> >::iterator' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,CGoods>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,CGoods,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<CGoods> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<CGoods> >::_Node' : identifier was truncated to '255' characters in the debug information
+warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,CGoods>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,CGoods,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<CGoods> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<CGoods> >::_Redbl' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+proDemo.exe - 0 error(s), 10 warning(s)
+</pre>
+</body>
+</html>
